@@ -1,0 +1,134 @@
+/*  only-做兼容使用   */
+@media only screen and (min-width: 1920px), only screen and (min-device-width: 1920px) {
+  .w {
+    width: 1903px;
+  }
+  html,
+  body {
+    font-size: 200px;
+  }
+}
+@media only screen and (max-width: 1920px), only screen and (max-device-width: 1920px) {
+  html,
+  body {
+    font-size: 190px;
+  }
+}
+@media only screen and (max-width: 1080px), only screen and (max-device-width: 1080px) {
+  html,
+  body {
+    font-size: 168.75px;
+  }
+}
+@media only screen and (max-width: 960px), only screen and (max-device-width: 960px) {
+  html,
+  body {
+    font-size: 150px;
+  }
+  .nav_item {
+    opacity: 0;
+  }
+  .search_box {
+    display: none;
+  }
+  .down_item {
+    display: block !important;
+  }
+  .news_content {
+    width: 4.2rem !important;
+  }
+  .bottom_box_ul {
+    width: 4rem !important;
+  }
+  .right_bottom {
+    text-align: center !important;
+  }
+}
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+  html,
+  body {
+    font-size: 125px;
+  }
+  .footer_content > .left {
+    display: none;
+  }
+  .footer_content > .right {
+    margin: 0 auto;
+    width: 6rem !important;
+  }
+  .footer_content {
+    padding-top: .2rem !important;
+  }
+}
+@media only screen and (max-width: 720px), only screen and (max-device-width: 720px) {
+  html,
+  body {
+    font-size: 112.5px;
+  }
+}
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+  html,
+  body {
+    font-size: 100px;
+  }
+}
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+  html,
+  body {
+    font-size: 93.75px;
+  }
+}
+@media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
+  html,
+  body {
+    font-size: 84.375px;
+  }
+  .carousel_box {
+    width: 4.2rem !important;
+  }
+  .carousel_list {
+    width: 1.4rem !important;
+  }
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  html,
+  body {
+    font-size: 75px;
+  }
+}
+@media only screen and (max-width: 414px), only screen and (max-device-width: 414px) {
+  html,
+  body {
+    font-size: 75px;
+  }
+}
+@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+  html,
+  body {
+    font-size: 75px;
+  }
+}
+@media only screen and (max-width: 375px), only screen and (max-device-width: 375px) {
+  html,
+  body {
+    font-size: 75px;
+  }
+}
+@media only screen and (max-width: 360px), only screen and (max-device-width: 360px) {
+  html,
+  body {
+    font-size: 65px;
+  }
+}
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
+  html,
+  body {
+    font-size: 65px;
+  }
+}
+@media only screen and (max-width: 240px), only screen and (max-device-width: 240px) {
+  html,
+  body {
+    font-size: 60px;
+  }
+}
